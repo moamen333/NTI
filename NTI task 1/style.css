@@ -1,0 +1,28 @@
+header {
+    background: lightgray;
+    padding: 10px;
+}
+
+header a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    background: lightgray;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    margin: 5px;
+}
