@@ -1,28 +1,69 @@
+/* ---------- General Page ---------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* ---------- Header ---------- */
 header {
-    background: lightgray;
-    padding: 10px;
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
 }
 
+/* Navigation links */
 header a {
-    margin-right: 10px;
+    color: white;
     text-decoration: none;
+    margin-right: 15px;
 }
 
+/* Change color when mouse hovers */
+header a:hover {
+    color: lightblue;
+}
+
+/* ---------- Hero Section ---------- */
 section {
+    padding: 40px 30px;
+}
+
+/* First section only (Hero) */
+section:first-of-type {
+    text-align: center;
+    background-color: #e8e8e8;
+}
+
+/* ---------- About Section ---------- */
+.about {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: white;
+}
+
+.about div {
+    flex: 1;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
     padding: 20px;
 }
 
-.about {
-    display: flex;
-    gap: 20px;
-}
-
-footer {
-    background: lightgray;
-    padding: 15px;
-    text-align: center;
-}
-
+/* Social media icons */
 footer a {
-    margin: 5px;
+    color: white;
+    margin: 0 8px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Hover effect for icons */
+footer a:hover {
+    color: lightblue;
 }
